@@ -35,7 +35,7 @@ function createEmployeeCard(employee) {
     card.innerHTML = `
         <div class="card-inner">
             <div class="card-front">
-                <img src="${employee.profilePicture}" alt="Fallback Image"
+                <img src='img/Defaul.jpg' alt="Fallback Image"
                     onerror="this.onerror=null; this.src='img/Default.jpg';">
                 <div class="name-box">    
                     <h3>${employee.name}</h3>
